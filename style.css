@@ -315,6 +315,18 @@ section {
     color: var(--Desaturated-blue);
 }
 
+.box-content {
+    height: 100%;
+}
+
+.box-content:hover {
+    background-color: var(--Blue);
+}
+
+.daily {
+   display: none;
+}
+
 .weekly {
     display: none;
 }
@@ -322,4 +334,50 @@ section {
 .monthly {
     display: none;
 }
+
+.active {
+    display: block;
+    color: white;
+}
+
+
+.box-content .weekly {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.box-content .weekly span {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.box-content .weekly p {
+    font-size: 0.8em;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 17px;
+    color: var(--Desaturated-blue);
+}
+
+.box-content .monthly {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.box-content .monthly span {
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+.box-content .monthly p {
+    font-size: 0.8em;
+    margin-top: 10px;
+    font-weight: 400;
+    margin-bottom: 17px;
+    color: var(--Desaturated-blue);
+}
+
+
+
+
 
