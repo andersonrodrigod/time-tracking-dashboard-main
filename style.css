@@ -321,6 +321,7 @@ section {
 
 .box-content:hover {
     background-color: var(--Blue);
+    cursor: pointer;
 }
 
 .daily {
